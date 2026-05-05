@@ -150,7 +150,7 @@ struct AddEntryView: View {
             if selectedAmount > 0 {
                 if entryType == .calories {
                     viewModel.addCalories(selectedAmount)
-                } else {
+                } else { 
                     viewModel.addWater(selectedAmount)
                 }
                 dismiss()

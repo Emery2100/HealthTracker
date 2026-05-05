@@ -80,7 +80,7 @@ struct HeartRateView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.green)
-            }
+            } 
             
             if let error = viewModel.heartRateErrors {
                 Text(error)

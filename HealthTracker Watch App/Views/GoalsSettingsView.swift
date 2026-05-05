@@ -128,7 +128,7 @@ struct GoalSettingsView: View {
 
         return Button {
             waterGoal = preset
-        } label: {
+        } label: { 
             Text("\(Int(preset))ml")
                 .font(.system(size: 11, weight: .medium))
                 .padding(.horizontal, 8)

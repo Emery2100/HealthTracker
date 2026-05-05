@@ -95,7 +95,7 @@ class HealthKitManager {
     }
     
     func stopHeartRateMonitoring() {
-        if let query = heartRateQuery {
+        if let query = heartRateQuery { 
             healthStore.stop(query)
             heartRateQuery = nil
         }

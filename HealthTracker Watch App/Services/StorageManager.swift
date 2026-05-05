@@ -53,7 +53,7 @@ class StorageManager {
         return entries
     }
     
-    func addEntry(_ entry: DiaryEntry) {
+    func addEntry(_ entry: DiaryEntry) { 
         var entries = loadEntries()
         entries.append(entry)
         saveEntries(entries)
