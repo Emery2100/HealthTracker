@@ -7,7 +7,8 @@
 
 import SwiftUI
 import Combine
-import WatchKit 
+import WatchKit
+import Foundation
 
 @MainActor
 class HealthViewModel: ObservableObject {
